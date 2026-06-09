@@ -1,0 +1,192 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: testcase.spec.ts >> test
+- Location: tests\testcase.spec.ts:5:5
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e11]:
+    - link "Skip to Main" [ref=e12] [cursor=pointer]:
+      - /url: javascript:void(0);
+    - banner [ref=e13]:
+      - generic [ref=e14]:
+        - banner "Site header" [ref=e23]:
+          - link [ref=e32] [cursor=pointer]:
+            - /url: https://www.hitachi.com/
+          - generic [ref=e40]:
+            - textbox "Search..." [ref=e42]
+            - img [ref=e44]
+          - button "English Select your language" [ref=e51] [cursor=pointer]:
+            - text: English
+            - img [ref=e53]
+            - generic [ref=e56]: Select your language
+        - generic [ref=e66]:
+          - paragraph [ref=e74]: Hitachi Vantara Support Connect
+          - navigation [ref=e83]:
+            - list [ref=e84]:
+              - listitem [ref=e85]:
+                - link "Home" [ref=e86] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e88]:
+                - button "My Account" [ref=e89] [cursor=pointer]
+              - listitem [ref=e91]:
+                - button "Resources" [ref=e92] [cursor=pointer]
+              - listitem [ref=e94]:
+                - button "Learn" [ref=e95] [cursor=pointer]
+          - button "User" [ref=e103]:
+            - img "User" [ref=e104] [cursor=pointer]
+    - main [ref=e105]:
+      - generic [ref=e112]:
+        - heading "New Product Support Case" [level=1] [ref=e123]
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - img [ref=e139]
+            - paragraph [ref=e142]: Your Case Number is 05392124
+          - generic [ref=e144]:
+            - paragraph [ref=e145]: Your case has been submitted.
+            - paragraph [ref=e146]: Your case has been created successfully, and you will receive a confirmation email shortly. We’re assigning your case to the next available support engineer, who will review your information and reach out soon.
+            - paragraph [ref=e147]: Thank you for contacting Hitachi Vantara Support.
+          - paragraph [ref=e150]:
+            - text: If you need to escalate this case to a Severity 1, please call our
+            - link "support line" [ref=e151] [cursor=pointer]:
+              - /url: /contact-us
+            - text: and have your case number ready.
+          - generic [ref=e152]:
+            - paragraph [ref=e154]: Here’s what you can do next...
+            - generic [ref=e155]:
+              - generic [ref=e159]:
+                - generic [ref=e160]:
+                  - paragraph [ref=e162]: Attach Files
+                  - img [ref=e165]
+                - paragraph [ref=e168]: Upload logs, screenshots, or documents that will help us understand your issue.
+              - generic [ref=e173]:
+                - generic [ref=e174]:
+                  - paragraph [ref=e176]: View Case Details
+                  - img [ref=e179]
+                - paragraph [ref=e182]: View your case, track progress, review updates, and communicate with our support team.
+    - contentinfo [ref=e184]:
+      - generic [ref=e185]:
+        - generic [ref=e195]:
+          - generic [ref=e204]:
+            - link "Hitachi Vantara" [ref=e205] [cursor=pointer]:
+              - /url: https://hitachivantara.com
+              - img "Hitachi Vantara" [ref=e206]
+            - list [ref=e207]:
+              - listitem [ref=e208]:
+                - link "Follow us on Twitter" [ref=e209] [cursor=pointer]:
+                  - /url: https://twitter.com/HitachiVantara
+                  - img "Follow us on Twitter" [ref=e210]
+              - listitem [ref=e211]:
+                - link "Follow us on Facebook" [ref=e212] [cursor=pointer]:
+                  - /url: https://www.facebook.com/HitachiVantara/
+                  - img "Follow us on Facebook" [ref=e213]
+              - listitem [ref=e214]:
+                - link "Follow us on Linkedin" [ref=e215] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/hitachi-vantara
+                  - img "Follow us on Linkedin" [ref=e216]
+              - listitem [ref=e217]:
+                - link "Follow us on Youtube" [ref=e218] [cursor=pointer]:
+                  - /url: https://www.youtube.com/c/HitachiVantara
+                  - img "Follow us on Youtube" [ref=e219]
+              - listitem [ref=e220]:
+                - link "Follow us on Instagram" [ref=e221] [cursor=pointer]:
+                  - /url: https://www.instagram.com/hitachivantara/
+                  - img "Follow us on Instagram" [ref=e222]
+          - generic [ref=e228]:
+            - generic [ref=e233]:
+              - generic [ref=e240]:
+                - generic:
+                  - paragraph
+                - paragraph [ref=e242]: EXPLORE
+                - link "Support Website Overview" [ref=e244] [cursor=pointer]:
+                  - /url: https://knowledge.hitachivantara.com/portal/app/portlets/results/viewsolution.jsp?solutionid=242403030000319
+                  - paragraph [ref=e246]: Support Website Overview
+                - link "Hitachi Vantara Products" [ref=e248] [cursor=pointer]:
+                  - /url: https://www.hitachivantara.com/en-us/products/storage-platforms
+                  - paragraph [ref=e250]: Hitachi Vantara Products
+                - link "Pentaho & Lumada Resources" [ref=e252] [cursor=pointer]:
+                  - /url: https://support.pentaho.com/hc/en-us
+                  - paragraph [ref=e254]: Pentaho & Lumada Resources
+                - link "Customer Support Services" [ref=e256] [cursor=pointer]:
+                  - /url: https://www.hitachivantara.com/en-us/services/customer-support
+                  - paragraph [ref=e258]: Customer Support Services
+                - link "Training & Certification" [ref=e260] [cursor=pointer]:
+                  - /url: https://www.hitachivantara.com/en-us/services/learning/training
+                  - paragraph [ref=e262]: Training & Certification
+              - generic [ref=e270]:
+                - paragraph [ref=e272]: INFORMATION
+                - link "Product Documentation" [ref=e274] [cursor=pointer]:
+                  - /url: https://docs.hitachivantara.com/
+                  - paragraph [ref=e276]: Product Documentation
+                - link "Product Lifecycle Matrix" [ref=e278] [cursor=pointer]:
+                  - /url: https://knowledge.hitachivantara.com/portal/app/portlets/results/viewsolution.jsp?solutionid=242403040002249
+                  - paragraph [ref=e280]: Product Lifecycle Matrix
+                - link "Product Compatibility" [ref=e282] [cursor=pointer]:
+                  - /url: https://compatibility.hitachivantara.com/
+                  - paragraph [ref=e284]: Product Compatibility
+                - link "Customer Support Terms" [ref=e286] [cursor=pointer]:
+                  - /url: https://www.hitachivantara.com/en-us/pdf/specifications/hitachi-support-service-descriptions-and-deliverables.pdf
+                  - paragraph [ref=e288]: Customer Support Terms
+                - link "Global Services Area" [ref=e290] [cursor=pointer]:
+                  - /url: https://www.hitachivantara.com/en-us/pdf/datasheet/geographic-service-coverage.pdf
+                  - paragraph [ref=e292]: Global Services Area
+            - generic [ref=e298]:
+              - generic [ref=e305]:
+                - paragraph [ref=e307]: SUPPORT
+                - link "Data Collection" [ref=e309] [cursor=pointer]:
+                  - /url: https://knowledge.hitachivantara.com/portal/app/portlets/results/viewsolution.jsp?solutionid=240930123652333
+                  - paragraph [ref=e311]: Data Collection
+                - link "Support Questions" [ref=e313] [cursor=pointer]:
+                  - /url: https://knowledge.hitachivantara.com/portal/app/portlets/results/viewsolution.jsp?solutionid=240930143145580
+                  - paragraph [ref=e315]: Support Questions
+                - link "Security Advisories" [ref=e317] [cursor=pointer]:
+                  - /url: https://knowledge.hitachivantara.com/portal/app/portlets/results/viewsolution.jsp?solutionid=241403050017684
+                  - paragraph [ref=e319]: Security Advisories
+                - link "Knowledge" [ref=e321] [cursor=pointer]:
+                  - /url: https://knowledge.hitachivantara.com/portal/ss/?guest=0
+                  - paragraph [ref=e323]: Knowledge
+              - generic [ref=e331]:
+                - paragraph [ref=e333]: GET IN TOUCH
+                - link "Careers" [ref=e335] [cursor=pointer]:
+                  - /url: https://www.hitachivantara.com/en-us/company/careers.html
+                  - paragraph [ref=e337]: Careers
+                - link "Contact Support" [ref=e339] [cursor=pointer]:
+                  - /url: /contact-us
+                  - paragraph [ref=e341]: Contact Support
+                - link "Partner Contact" [ref=e343] [cursor=pointer]:
+                  - /url: https://hitachivantara.com
+                  - paragraph [ref=e345]: Partner Contact
+                - link "Partner Locator" [ref=e347] [cursor=pointer]:
+                  - /url: https://www.hitachivantara.com/en-us/partners/partner-locator
+                  - paragraph [ref=e349]: Partner Locator
+        - generic [ref=e358]:
+          - paragraph [ref=e366]: © Hitachi Vantara LLC 2026. All Rights Reserved.
+          - list [ref=e376]:
+            - listitem [ref=e377]:
+              - link "Terms of Use" [ref=e378] [cursor=pointer]:
+                - /url: https://www.hitachivantara.com/en-us/legal/terms-of-use
+            - listitem [ref=e379]:
+              - link "Privacy Policy" [ref=e380] [cursor=pointer]:
+                - /url: https://www.hitachivantara.com/en-us/legal/privacy
+            - listitem [ref=e381]:
+              - link "Legal" [ref=e382] [cursor=pointer]:
+                - /url: https://www.hitachivantara.com/en-us/legal
+  - button "Open Survey" [ref=e389] [cursor=pointer]:
+    - generic [ref=e390]: Feedback
+  - button "Hello, have a question? Let’s chat." [ref=e391] [cursor=pointer]:
+    - img [ref=e393]
+```
